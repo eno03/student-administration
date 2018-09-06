@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="it350_project_new.jnlp">
+  <information>
+    <title>it350_project_new</title>
+    <vendor>nikol</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="it350_project_new.jar" size="179384" download="eager" />
+    <jar href="lib\mysql-connector-java-5.1.42-bin.jar" size="996444" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="it350_project_new" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="Main"  name="it350_project_new" />
+  <update check="always"/>
+</jnlp>
